@@ -33,5 +33,11 @@ final class Version20200619083956 extends AbstractMigration
         $this->addSql('DROP TABLE tag');
         $this->addSql('DROP TABLE task');
         $this->addSql('DROP TABLE user');
+
     }
 }
+
+
+/**
+ * test
+ */
